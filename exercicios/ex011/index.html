@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML</title>
+</head>
+<body>
+    <h1>Imagem dinâmica</h1>
+    <p>Tente abrir esse site em varios dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador </p>
+    <picture>
+        <source media="(max-width: 700px)" srcset="imagens/foto-p.png" type="image/png">
+        <source media="(max-width: 1000px)" srcset="imagens/foto-m.png" type="image/png">
+        <img src="imagens/foto-g.png" alt="Imagem flexivel">
+    </picture>
+    <h1>Reproduzindo áudio</h1>
+    <p>vamos testar e reproduzir áudios em HTML </p>
+    <audio src="midia/good for the ghost - Alge.mp3" controls ></audio>
+    <audio >
+        <source src="midia/good for the ghost - Alge.mp3" type="audio/mpeg">
+    </audio>
+    <p>Infelismente seu navegador não consegue abrir o áudio! Para abrir apenas clique no link</p><a href="midia/good for the ghost - Alge.mp3">midia áudio</a>
+
+    <h1>videos em HTML</h1>
+    <h2>Inserindo vídeos hospedados localmente</h2>
+    <p>Este vídeo está hospedado no meu próprio servidor.</p>
+    <video src="midia/4771356-hd_1920_1080_25fps.mp4"width="500"controls></video>
+
+    <h1>Colocando Vídeos do youtube</h1>
+
+</body>
+</html>

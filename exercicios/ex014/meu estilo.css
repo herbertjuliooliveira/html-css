@@ -1,0 +1,20 @@
+  @charset "UTF-8";
+  body {
+            background-color: #4799e1;
+            font-family: Arial, sans-serif;
+            margin: 20px;
+
+        }
+        h1 {
+            color: #042211;
+            background-color: #2e8b57;
+            text-align: center;
+        }
+        h2 {
+            color: #08263e;
+        }
+        p {
+            font-size: 16px;
+            line-height: 1.5;
+        }
+      
