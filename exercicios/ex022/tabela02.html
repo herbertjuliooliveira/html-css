@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>tabelas</title>
+    <style>
+        body {
+            font-family: sans-serif;
+        }
+        table{
+            width: 400px;
+            border-collapse: collapse;
+        }
+        td,th{
+            border: 2px solid black;
+            padding: 8px;
+        }
+        thead, tfoot {
+            background-color: aqua;
+            color: white;
+        }
+    </style>
 </head>
 <body>
-    <h1>utilizando tabela</h1>
+    <h1>utilizando tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td>45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td>17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
 </body>
 </html>
