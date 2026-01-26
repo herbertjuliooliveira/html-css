@@ -12,12 +12,19 @@
             width: 400px;
             border-collapse: collapse;
         }
+        caption {
+            font-size: 20px;
+            font-family: sans-serif;
+            font-weight: bolder;
+            padding: 5px;
+            background-color: rgba(30, 35, 45, 0.54);
+        }
         td,th{
             border: 2px solid black;
             padding: 8px;
         }
         thead, tfoot {
-            background-color: aqua;
+            background-color: rgba(8, 146, 146, 0.463);
             color: white;
         }
     </style>
@@ -25,24 +32,50 @@
 <body>
     <h1>utilizando tabelas grandes</h1>
     <table>
+        <caption>População das Unidades Federativas</caption>
         <thead>
             <tr>
                 <th>Estado</th>
                 <th>População</th>
             </tr>
         </thead>
-        <tbody>
-            <tr>
-                <td>São Paulo</td>
-                <td>45 919 049</td>
-            </tr>
-            <tr>
-                <td>Minas Gerais</td>
-                <td>17 264 943</td>
-            </tr>
-        </tbody>
-        <tfoot>
+  <tbody>
+ <tr>
+     <td>São Paulo</td>
+    <td>46 081 801</td>
+ </tr>
+<tr>
+    <td>Minas Gerais</td>
+    <td>21 393 441</td>
+</tr>
+<tr><td>Rio de janeiro</td>
+    	<td>17 223 547</td>
+    </tr>
+<tr><td>Bahia</td>
+    	<td>14 870 907</td>
+    </tr>
+<tr><td>Paraná</td>	<td>11 890 517</td>
+</tr>
+<tr><td>Rio Grande do Sul</td>
+    	<td>11 233 263</td>
+    </tr>
+<tr><td>Pernambuco	</td>
+    <td>9 562 007</td>
+</tr>
+<tr><td>Ceará</td>	
+    <td>9 268 839</td>
+</tr>
+<tr><td>Pará</td>	
+    <td>8 711 196</td>
+</tr>
+<tr><td>Santa catarina</td>
+    <td>	8 187 029</td>
+</tr>
 
+ </tbody>
+        <tfoot>
+            <th scope="row">População</th>
+            <td> <strong>150 894 463</strong></td>
         </tfoot>
     </table>
 </body>
