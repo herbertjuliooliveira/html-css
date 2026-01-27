@@ -11,6 +11,7 @@
         table{
             width: 400px;
             border-collapse: collapse;
+            position: relative;
         }
         caption {
             font-size: 20px;
@@ -24,8 +25,16 @@
             padding: 8px;
         }
         thead, tfoot {
-            background-color: rgba(8, 146, 146, 0.463);
+            background-color: rgb(0, 0, 0);
             color: white;
+        }
+        thead > tr > th {
+            position: sticky;
+            top: 0px;
+            background-color:  rgb(0, 0, 0);;
+        }
+        tbody > tr:nth-child(2n) {
+            background-color: rgb(83, 77, 77);
         }
     </style>
 </head>
@@ -36,7 +45,7 @@
         <thead>
             <tr>
                 <th>Estado</th>
-                <th>População</th>
+                <th style="width: 100px;">População</th>
             </tr>
         </thead>
   <tbody>
@@ -71,11 +80,78 @@
 <tr><td>Santa catarina</td>
     <td>	8 187 029</td>
 </tr>
-
+<tr>
+    <td>Goiás</td>
+    <td>7 423 629</td>
+</tr>
+<tr>
+    <td>Maranhão</td>
+    <td>7 018 211</td>
+</tr>
+<tr>
+    <td>Amazonas</td>
+    <td>4 321 616</td>
+</tr>
+<tr>
+    <td>Paraíba</td>
+    <td>2 162 268</td>
+</tr>
+<tr>
+    <td>Espírito santo</td>
+    <td>4 126 854</td>
+</tr>
+<tr>
+    <td>Mato Grosso</td>
+    <td>3 893 659</td>
+</tr>
+<tr>
+    <td>rio Grande do Norte</td>
+    <td>3 455 236</td>
+</tr>
+<tr>
+    <td>Piauí</td>
+    <td>3 384 547</td>
+</tr>
+<tr>
+    <td>Alagoas</td>
+    <td>3 220 848</td>
+</tr>
+<tr>
+    <td>Distrito Federal</td>
+    <td>2 996 899</td>
+</tr>
+<tr>
+    <td>Mato Grosso do Sul</td>
+    <td>2 924 631</td>
+</tr>
+<tr>
+    <td>Sergipe</td>
+    <td>2 299 425</td>
+</tr>
+<tr>
+    <td>Rondônia</td>
+    <td>1 751 950</td>
+</tr>
+<tr>
+    <td>Tocantins</td>
+    <td>1 586 859</td>
+</tr>
+<tr>
+    <td>Acre</td>
+    <td>884 372</td>
+</tr>
+<tr>
+    <td>Amapá</td>
+    <td>806 517</td>
+</tr>
+<tr>
+    <td>Roraima</td>
+    <td>738 772</td>
+</tr>
  </tbody>
         <tfoot>
-            <th scope="row">População</th>
-            <td> <strong>150 894 463</strong></td>
+            <th scope="row"> Total População</th> 
+            <td> <strong>213 421 037</strong></td>
         </tfoot>
     </table>
 </body>
