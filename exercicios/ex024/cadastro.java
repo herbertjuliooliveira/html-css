@@ -1,0 +1,1 @@
+Os dados oram enviados para o arquivo cadastro.java, onde serão processados e exibidos na tela. O formulário utiliza o método GET para enviar os dados, e a opção autocomplete está desativada para evitar sugestões automáticas. O atributo target="_blank" garante que o resultado seja aberto em uma nova aba do navegador.
