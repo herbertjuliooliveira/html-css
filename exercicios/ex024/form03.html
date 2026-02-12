@@ -6,7 +6,35 @@
     <title>Formulario</title>
 </head>
 <body>
-    <form action="cadastro.java">
+    <h1 style="text-align: center; font-family: sans-serif;">Teste de formulario</h1>
+    <form action="cadastro.java" autocomplete="on">
+        <h2>Médias escolares</h2>
+        <p>
+            <label for="inome">Nome:</label>
+            <input type="text" name="nom" id="inom" required autocomplete="name" placeholder="Digite seu nome completo">
+        </p>
+        <p>
+            <label for="imedia">Média</label>
+            <input type="number" name="med" id="imedeia" placeholder="0 a 10"
+            min="0" max="10" step="0,1"
+            required>
+        </p>
+        <p><label for="imes">mês</label>
+           <input type="month" name="mês" id="imes"
+           required >
+        </p>
+        <p>
+            <label for="idia">Dia</label>
+            <input type="date" name="Dia" id="idia" required>
+        </p>
+        <p>
+            <label for="ihora">Horas</label>
+            <input type="time" name="horas" id="ihora" required>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Limpar">
+        </p>
         
     </form>
 </body>
