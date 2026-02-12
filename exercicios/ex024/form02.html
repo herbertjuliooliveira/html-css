@@ -7,14 +7,14 @@
 </head>
 <body>
     <h1>Teste de formulario</h1>
-    <form action="cadastro.java" method="post">
+    <form action="cadastro.java" method="post" autocomplete="on">
        <p>
         <label for="iusu">Usuário</label>
-        <input type="text" name="usu" id="iusu">
+        <input type="text" name="usu" id="iusu" required autocomplete="username" placeholder="Digite o nome.">
        </p>
        <p>
         <label for="isen">Senha</label>
-        <input type="password" name="sen" id="isen">
+        <input type="password" name="sen" id="isen" required minlength="8" autocomplete="current-password" placeholder="Digite sua senha.">
        </p>
        <p>
         <input type="submit" value="Cadastra-se">
