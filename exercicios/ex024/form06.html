@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formularios</title>
+</head>
+<body>
+    <h1>Formulario</h1>
+    <form action="cadastro.java" method="get">
+        <p>
+            <label for="iest">Estado:</label>
+            <select name="estado" id="iest" required>
+                <option value="BA">Bahia</option>
+                <option value="SP">São Paulo</option>
+                <option value="RJ">Rio de Janeiro</option>
+                <option value="">Bahia</option>
+                <option value="BA">Bahia</option>
+            </select>
+
+        </p>
+        <p>
+            <label for="iprof">Profissões</label>
+            <input type="text" name="prof" id="iprof" list="istprof" required>
+            <datalist id="istprof">
+                <option >Desenvolvedor</option>
+                <option >Pedreiro</option>
+                <option >Engenheiro</option>
+                <option >Médico</option>
+                <option >Arquiteto </option>
+            </datalist >
+        </p>
+        <p>
+            <label for="img">Mensagem</label>
+            <textarea name="mens" id="img" cols="20" rows=""></textarea>
+        </p>
+        <p>
+            <input type="reset" value="Limpar">
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>
