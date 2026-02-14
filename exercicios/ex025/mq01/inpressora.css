@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+* {
+    padding: 10px;
+    margin: 10px;
+}
+html{
+    font-family: sans-serif;
+}
+header{
+    background-color: rgb(161, 160, 160);
+    text-align: center;
+}
+menu {
+    display: none;
+}
+main > h1 {
+    text-align: center;
+}
+main {
+    width: 100%;
+    padding: 10px;
+}
+main::after {
+    content: 'www.herbertjulio.com';
+}
