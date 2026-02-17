@@ -8,7 +8,10 @@
 html, body{
     height: 100vh;
     width: 100vw;
-    background-color: blue;
+    background-image: url('../imagens/cev-portrait.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
 }
 h1{
     color: white;
