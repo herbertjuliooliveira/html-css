@@ -6,14 +6,19 @@
     <title>Flexbox</title>
     <style>
         .conteiner {
+            height: 350px;
+            align-items: flex-start;
+            justify-content: space-around;
             background-color: rgb(47, 60, 102);
             display: flex;
+            flex-flow: wrap;
             
         }
         .item {
             background-color: lightseagreen;
-            padding: 10px;
+            padding: 50px;
             border: 1px solid black;
+            flex-basis: 100px;
         }
     </style>
 </head>
@@ -23,6 +28,8 @@
         <div class="item">B</div>
         <div class="item">C</div>
         <div class="item">D</div>
+        <div class="item">E</div>
+        <div class="item">F</div>
     </div>
 </body>
 </html>
