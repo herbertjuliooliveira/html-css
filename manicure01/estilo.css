@@ -5,8 +5,8 @@
     margin: 0px;
 }
 header {
-    display: flex;
-    align-items: center;
+    background-color: rgb(103, 209, 209);
+    display: block;
     border-bottom: 1px solid black;
 }
 
@@ -17,8 +17,6 @@ header > h1 {
 nav {
     display: inline-block;
     padding: 10px;
-    margin-left: auto;
-
 }
 li {
     display: inline-block;
@@ -31,4 +29,9 @@ a {
 }
 a:hover {
     text-decoration: underline;
+}
+main {
+    display: block;
+    background-color: rosybrown;
+    width: 100%;
 }
