@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex box</title>
+    <style>
+        div.conteiner{
+        display: flex;
+        background-color: brown;
+        flex-flow: row nowrap;
+        }
+        div.item{
+            background-color: rgb(173, 173, 36);
+            padding: 10px;
+            border: 2px solid black;
+            flex-basis: 200px;
+        }
+        #c1{
+           flex-shrink: 0;
+           flex-grow: 0;
+        }
+        #c2{
+           flex-shrink: 1;
+           flex-grow: 1;
+        }
+        #c3{
+           flex-shrink: 4;
+           flex-grow: 0;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="conteiner">
+        <div class="item" id="c1"> eu sou A </div>
+
+        <div class="item" id="c2"> eu sou B </div>
+
+        <div class="item" id="c3"> eu sou C </div>
+    </div>
+</body>
+</html>
