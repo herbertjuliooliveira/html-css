@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu responsivo com flex box</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: sans-serif;
+            background-color: rgb(114, 139, 114);
+        }
+        header {
+            display: flex;
+            background-color: lightgray;
+        }
+        header > h1 {
+            font-weight: bolder;
+            font-size: 35px;
+        }
+        nav {
+            margin-left: auto;
+        }
+         ul {
+            list-style: none;
+        }
+         li {
+            width: 100px;
+            display: inline-block;
+            padding: 10px;
+            background-color: royalblue;
+        }
+         a {
+            text-decoration: none;
+            color: black;
+            font-weight: bolder;
+        }
+        li:hover {
+            background-color: rgb(0, 0, 128);
+        }
+    </style>
+</head>
+<body>
+    <header> 
+        <h1>Olá, bem vindo!</h1>
+        <nav>
+            <ul>
+                <li><a href="#">A</a></li>
+                <li><a href="#">B</a></li>
+                <li><a href="#">C</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure, voluptate animi fugit cum culpa explicabo! Necessitatibus dolor, similique consequuntur ipsa nisi ut, nulla accusantium laborum fuga tempora assumenda harum veritatis. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Porro, facere velit cupiditate ullam omnis itaque esse fugit recusandae delectus alias accusamus eligendi qui commodi modi iure libero, maiores quisquam laudantium!</p>
+    </main>
+</body>
+</html>
