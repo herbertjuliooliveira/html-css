@@ -22,6 +22,7 @@ p {
     display: flex;
     flex-flow: column nowrap;
     border-radius: 20px;
+    width: 100%;
 }
 .media-text {
     display: flex;
